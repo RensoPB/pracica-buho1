@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+    </style>
+<head>
+    <title>Formulario</title>
+</head>
+<body>
+    <form class="form" method="get">
+        <center><h1>Registro</h1></center>
+        <label for="inputName" class="label">
+            <span class="label__name" id="labelName"><h3>Nombre: </h3</span>
+            <input class="caja" type="text" name="name" id="inputName" placeholder="Tu nombre (solo letras)" required autocomplete="off">
+        </label>
+
+        <label for="email" class="label">
+            <span class="label__name"><h3>Correo: </h3</span>
+            <input class="caja" type="email" name="email" id="email" placeholder="ejemplo@gmail.com" required autocomplete="off">
+        </label>
+        
+        <label for="inputRandom" class="label">
+            <span class="label__name"><h4>Numero Random: </h4</span>
+            <input class="caja" type="text" name="random" id="inputRandom" value="cargando..." readonly>
+        </label>
+
+        <button class="boton" id="inputboton">SEND FEEDBACK</button>
+        
+    </form>
+    
+    
+</body>
+</html>
+<script src="index.js"></script>
